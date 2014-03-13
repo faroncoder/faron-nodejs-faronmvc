@@ -1,0 +1,24 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+     "start": "./node_modules/.bin/supervisor app.js",
+      "test": "jasmine-node tests"
+  },
+  "dependencies": {
+ "expectations":"*",
+"require":"*",
+"should":"*",
+"socket.io":"*",
+"sinon-chai":"*",
+"connect-mongo":"*",
+"jasmine-node":"*",
+"supervisor":"*",
+"mocha":"*",
+"express": "3.2.6",
+"less-middleware": "0.1.12",
+"underscore": "1.4.4",
+"mongodb": "1.3.10"
+  }
+}
